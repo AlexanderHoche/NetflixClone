@@ -1,0 +1,96 @@
+:root{
+    --vermehlha: #e50914;
+    --cinza: #141414;
+}
+
+*{
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cinza);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo{
+    color: var(--vermehlha);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+header nav a:hover{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('/img/falcaobanner.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .titulo{
+    margin-bottom: 20px;
+}
+
+.botao1{
+    color: black;
+    border: none;
+    background: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.botao2{
+    color: white;
+    border: none;
+    background-color: rgba(109, 109, 110, 0.7);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background-color:  rgba(109, 109, 110, 0.4);
+}
+
+
+
+
