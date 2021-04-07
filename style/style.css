@@ -37,6 +37,9 @@ header nav a:hover{
     color: rgb(255, 255, 255, 0.8);
 }
 
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 /*filme principal*/
@@ -44,9 +47,9 @@ header nav a:hover{
 .filme-principal{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url('/img/falcaobanner.jpg');
+    background:  url('/img/falcaobanner.jpg');
 
-    height: 400px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -89,6 +92,16 @@ header nav a:hover{
 
 .botao2:hover{
     background-color:  rgba(109, 109, 110, 0.4);
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+.owl-carousel{  
 }
 
 
